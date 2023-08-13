@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/logo.png";
+import resume from "../assets/resume.pdf";
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -118,7 +119,8 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/zaved-sikdar-222207192"
+              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Linkedin
@@ -128,7 +130,8 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
             <a
-              href="/"
+              href="https://github.com/zavedhussain"
+              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Github
@@ -138,7 +141,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-600">
             <a
-              href="/"
+              href="mailto:zavedhussain46@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email
@@ -148,7 +151,8 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-zinc-600">
             <a
-              href="/"
+              href={resume}
+              download
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume
