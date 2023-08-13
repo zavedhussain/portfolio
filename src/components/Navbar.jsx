@@ -70,13 +70,13 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link
-            to="about"
+            to="workexp"
             smooth={true}
             offset={50}
             duration={500}
             onClick={() => setNav(!nav)}
           >
-            About
+            Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -92,13 +92,13 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link
-            to="work"
+            to="projects"
             smooth={true}
             offset={50}
             duration={500}
             onClick={() => setNav(!nav)}
           >
-            Work
+            Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
